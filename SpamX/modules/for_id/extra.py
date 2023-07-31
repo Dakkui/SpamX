@@ -24,7 +24,7 @@ async def uspam(SpamX: Client, e: Message):
        await e.reply("Gime Spam message bruh!")
        return
     if re.search(res_devs.lower(), msg.lower()):
-       await e.reply("**Sorry !!** I can't Spam On @RiZoeLX's owner")
+       await e.reply("**Sorry !!** I can't Spam On @PunjabiChat_Group owner")
        return
 
     try:
@@ -149,7 +149,7 @@ async def Red7_report(SpamX: Client, message: Message):
          if re.search(R7_ban_codes.lower(), reason.lower()):
             report_reason = reason
          else:   
-            await message.reply_text("**Error:** Wrong reason Code \n\n [Click Here.](https://t.me/Red_Seven_Network/14) to get all reason codes!", disable_web_page_preview=True)
+            await message.reply_text("**Error:** Wrong reason Code \n\n [Click Here.](https://t.me/PunjabiChat_Group) to get all reason codes!", disable_web_page_preview=True)
             return
          proof = str(txt[1])
          if proof.startswith("https://telegra.ph/file") or proof.startswith("https://telegra.ph"):
@@ -169,4 +169,4 @@ async def Red7_report(SpamX: Client, message: Message):
          await message.reply_text(str(eror))
 
    else:
-       await message.reply_text(f"**Wrong Usage!** \n\n Syntax: {handler}report (user) (reason code ([get here.](https://t.me/Red_Seven_Network/14)) (single proof telegraph link only)", disable_web_page_preview=True)
+       await message.reply_text(f"**Wrong Usage!** \n\n Syntax: {handler}report (user) (reason code ([get here.](https://t.me/PunjabiChat_Group/14)) (single proof telegraph link only)", disable_web_page_preview=True)
