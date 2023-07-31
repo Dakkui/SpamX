@@ -40,8 +40,8 @@ async def alive_me(SpamX: Client, message: Message):
              caption=Alive.msg)
 
 
-@Client.on_message(filters.user(Sudos) & filters.command(["SpamX", "Spamx", "spamx"], prefixes=handler))
-@Client.on_message(filters.me & filters.command(["SpamX", "Spamx", "spamx"], prefixes=handler))
+@Client.on_message(filters.user(Sudos) & filters.command(["sstart", "sstart", "sstart"], prefixes=handler))
+@Client.on_message(filters.me & filters.command(["sstart", "sstart", "sstart"], prefixes=handler))
 async def SpamX_(SpamX: Client, message: Message):
     user = message.from_user
     Mai = await SpamX.get_me()
