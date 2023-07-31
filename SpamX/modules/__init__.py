@@ -8,7 +8,7 @@ import platform
 __version__ = __version__
 
 
-ping_msg = PING_MSG if PING_MSG else "SpamX"
+ping_msg = PING_MSG if PING_MSG else "sstart"
 pic = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/71008a078f26dedfc62c5.jpg"
 amsg = ALIVE_MSG if ALIVE_MSG else "SpamX - by AUJLA"
 
@@ -30,7 +30,7 @@ class Alive:
 ➠ **SpamX Version:** `{__version__}`
 ➠ **Pyrogram Version:** `{pyro_vr}`
 ➠ **pyRiZoeLX Version:** `{pip_vr}`
-➠ **Channel:** @RiZoeLX
+➠ **Channel:** @PunjabiChat_Group
 ━───────╮•╭───────━
 ➠ **Source Code:** [•Repo•](https://telegra.ph/file/8ffa51bb47619bb2ebb97.mp4)
      """
